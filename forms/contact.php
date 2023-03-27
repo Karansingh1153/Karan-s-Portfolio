@@ -32,10 +32,10 @@ $mail->SMTPDebug = 0;
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 587;
 $mail->SMTPAuth = true;
-$mail->Username = "karanchauhan20@gnu.ac.in";
-$mail->Password = "cisnhczszwyscqop";
+$mail->Username = "";
+$mail->Password = "";
 $mail->setFrom($email, $email);
-$mail->addAddress('karanchauhan20@gnu.ac.in');
+$mail->addAddress('');
 $mail->Subject = 'Contact Form Submission';
 $mail->Body = $message;
 
