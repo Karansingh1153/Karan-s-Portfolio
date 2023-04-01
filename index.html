@@ -342,10 +342,21 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  
   <script src="assets/js/main.js"></script>
+  
+  <a id="top"></a>
+  <button class="back-to-top" href="#top">Back to Top</button>
+  <script>
+    window.addEventListener('scroll', function() {
+  var button = document.querySelector('.back-to-top');
+  if (window.pageYOffset > 300) {
+    button.style.display = 'block';
+  } else {
+    button.style.display = 'none';
+  }
+});
 
+  </script>
 </body>
 
 </html>
